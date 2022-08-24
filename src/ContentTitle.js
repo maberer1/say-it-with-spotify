@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 function ContentTitle(props) {
@@ -7,7 +7,9 @@ function ContentTitle(props) {
             <h1 id="Prompt">Wanna give it a title?</h1>
             <input type="text" placeholder="Oooh, name it something good." id="Response"></input>
             <br></br>
-            <button id="Next-Btn">NEXT</button>
+            <Link to="/create">
+                <button id="Next-Btn">NEXT</button>
+            </Link>
         </div>
     );
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 import './App.css';
 
 function ContentMsg(props) {
@@ -7,7 +7,9 @@ function ContentMsg(props) {
             <h1 id="Prompt">Now, what do you want your playlist to say?</h1>
             <input type="text" placeholder="Enter your message here." id="Response"></input>
             <br></br>
-            <button id="Next-Btn">NEXT</button>
+            <Link to="/title">
+                <button id="Next-Btn">NEXT</button>
+            </Link>
         </div>
     );
 }
