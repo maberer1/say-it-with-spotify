@@ -29,3 +29,23 @@
   margin: 40% 0 4rem 10rem;
   font-size: 20px;
 }
+
+#Prompt {
+  font-size: 70px;
+  margin: 46.9px 0 25px 0;
+}
+
+#Response {
+  font-size: 50px;
+  width: 60vw;
+  border: none;
+}
+
+#Next-Btn {
+  background-color: #1db954;
+  font-size: 30px;
+  margin: 40px 0 0 0;
+  padding: 15px 40px;
+  font-weight: bold;
+  border-radius: 40px;
+}
