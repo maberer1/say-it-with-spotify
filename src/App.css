@@ -49,3 +49,16 @@
   font-weight: bold;
   border-radius: 40px;
 }
+
+#Create-Prompt {
+  font-size: 70px;
+}
+
+#Build-My-Playlist-Btn {
+  background-color: #1db954;
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  border-radius: 40px;
+}
