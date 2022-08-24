@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function Content(props) {
+function ContentMsg(props) {
     return (
         <div>
             <h1 id="Prompt">Now, what do you want your playlist to say?</h1>
@@ -12,4 +12,4 @@ function Content(props) {
     );
 }
 
-export default Content;
+export default ContentMsg;
