@@ -1,9 +1,18 @@
 .App {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   flex-flow: row wrap;
   justify-content: flex-start;
   margin: 2rem 4rem;
+  overflow: hidden;
+  /* background: grey; */
+  border-radius: 40px;
+  /* box-shadow: 5px 10px; blur */
+  /* border: 2px solid red; */
+}
+
+#Container {
+  width: 100vw;
 }
 
 #Header {
@@ -26,7 +35,9 @@
 #Author-Footer {
   display: flex;
   flex-direction: row-reverse;
-  margin: 40% 0 4rem 10rem;
+  position: absolute;
+  bottom: 0;
+  right: 70px;
   font-size: 20px;
 }
 
