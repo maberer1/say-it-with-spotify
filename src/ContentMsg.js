@@ -1,7 +1,15 @@
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import './App.css';
+import queryString from 'query-string';
 
 function ContentMsg(props) {
+
+useEffect(() => {
+    let parsed = queryString.parse(window.location.search);
+    console.log(parsed)
+})
+
     return (
         <div>
             <h1 id="Prompt">Now, what do you want your playlist to say?</h1>
