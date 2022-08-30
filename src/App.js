@@ -16,7 +16,7 @@ function App() {
         <Route path="/message" element={<ContentMsg/>}/>
         <Route path="/create" element={<Create/>}/>
         <Route path="/finish" element={<Finish/>}/>
-        <Route path="/*" element={<Navigate to="/"/>}/>
+        {/* <Route path="/*" element={<Navigate to="/"/>}/> */}
       </Routes>
     </div>
   );
